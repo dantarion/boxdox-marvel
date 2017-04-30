@@ -13,7 +13,7 @@ const Routes = (props) => (
         <div className="pure-menu">
           <a className="pure-menu-heading" href="#">boxdox.marvel</a>
           <ul className="pure-menu-list">
-            <li className="pure-menu-item" className="menu-item-divided pure-menu-selected">
+            <li className="pure-menu-item menu-item-divided pure-menu-selected">
               <Link to="/" className="pure-menu-link">Intro</Link>
             </li>
           </ul>

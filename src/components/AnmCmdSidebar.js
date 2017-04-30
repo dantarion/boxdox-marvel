@@ -6,9 +6,11 @@ var characterButtons = characters.map((character,index)=>{
 })
 class AnmCmdSidebar extends Component {
   componentDidMount() {
-    axios.get(`http://www.reddit.com/r/${this.props.match.params.character}.json`)
+    axios.get(`/json/anmcmd/${this.props.match.params.character}.json`)
       .then(res => {
-        const posts = res.data.data.children.map(obj => obj.data);
+        const posts = Object.keys(res.data).map(ID => {
+          return ID
+        });
         this.setState({ posts });
       });
   }
