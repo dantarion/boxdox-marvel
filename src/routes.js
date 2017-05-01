@@ -6,27 +6,20 @@ import {AnmCmdSidebar, AnmCmdDisplay} from './components/AnmCmd';
 const data = {};
 const Routes = (props) => (
   <Router>
-    <div id="layout">
-      <a href="/" id="menuLink" className="menu-link">
-        <span></span>
-      </a>
-      <div id="menu">
-        <div className="pure-menu">
-          <a className="pure-menu-heading" href="#">boxdox.marvel</a>
-          <ul className="pure-menu-list">
-            <li className="pure-menu-item menu-item-divided pure-menu-selected">
-              <Link to="/" className="pure-menu-link">Intro</Link>
-            </li>
-          </ul>
-          <Route test="testData" data={data} path="/:character/anmcmd" component={AnmCmdSidebar}>
-          </Route>
+    <div id="wrapper">
+      <div id="sidebar-wrapper">
+        <ul className="sidebar-nav">
+          <li className="sidebar-brand"><Link to="/">boxdox.marvel</Link></li>
+        </ul>
+        <Route test="testData" data={data} path="/:character/anmcmd" component={AnmCmdSidebar}></Route>
+      </div>
+      <div id="page-content-wrapper">
+        <div className="container-fluid">
+          <Route exact path="/" component={intro}/>
+          <Route exact test="testData" data={data} path="/:character/anmcmd/:id" component={AnmCmdDisplay}/>
         </div>
       </div>
-      <div id="main">
-        <Route exact path="/" component={intro}/>
-        <Route test="testData" data={data} path="/:character/anmcmd/:id" component={AnmCmdDisplay}/>
-      </div>
     </div>
-
-  </Router>);
-  export default Routes;
+  </Router>
+);
+export default Routes;
