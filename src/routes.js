@@ -2,11 +2,11 @@ import React from 'react';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
 
 import intro from './components/intro';
-import AnmCmdSidebar from './components/AnmCmdSidebar';
+import {AnmCmdSidebar, AnmCmdDisplay} from './components/AnmCmd';
 const Routes = (props) => (
   <Router>
     <div id="layout">
-      <a href="#menu" id="menuLink" className="menu-link">
+      <a href="/" id="menuLink" className="menu-link">
         <span></span>
       </a>
       <div id="menu">
@@ -17,16 +17,14 @@ const Routes = (props) => (
               <Link to="/" className="pure-menu-link">Intro</Link>
             </li>
           </ul>
-          <Route path="/:character/anmcmd" component={AnmCmdSidebar}/>
+          <Route path="/:character/anmcmd" component={AnmCmdSidebar}>
+
+          </Route>
         </div>
       </div>
       <div id="main">
-        <div className="header">
-          <h1>Its Mahvel Baby!</h1>
-          <h2>Now lets mod it!</h2>
-        </div>
-        <Route exact path="/" component={intro}/>
-        <Route path="/:character/anmcmd" component={intro}/>
+        <Route exact path="/(:filter)" component={intro}/>
+        <Route path="/:character/anmcmd/:id" component={AnmCmdDisplay}/>
       </div>
     </div>
 

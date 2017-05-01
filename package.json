@@ -4,11 +4,16 @@
   "private": true,
   "dependencies": {
     "axios": "^0.16.1",
+    "printf": "^0.2.5",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.4",
+    "react-router-dom": "^4.1.1",
+    "redux": "^3.6.0"
   },
   "devDependencies": {
-    "react-scripts-sass": "0.8.6"
+    "react-scripts-sass": "0.8.6",
+    "redux-devtools": "^3.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
