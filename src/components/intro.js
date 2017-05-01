@@ -4,7 +4,7 @@ import {characters} from '../data';
 
 var characterButtons = characters.map((character,index)=>{
   var route = "/"+character+"/anmcmd";
-  return <tr key={index}><th>{character}</th><td><Link to={route}>anmcmd</Link></td></tr>
+  return <Link key={index} to={route}>{character}</Link>
 })
 class Intro extends Component {
 
@@ -22,13 +22,13 @@ class Intro extends Component {
     <h2 className="content-subhead">Dumps</h2>
     <table className="pure-table">
       <tbody>
-        {characterButtons}
+
       </tbody>
     </table>
 
-    <ul>
-      <li>test</li>
-    </ul>
+    <div className="characterList">
+{characterButtons}
+    </div>
   </div>)
 }};
 export default Intro;

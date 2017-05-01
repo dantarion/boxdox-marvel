@@ -1,2 +1,3 @@
-const characters = ["Ryu","Frank"];
-export {characters};
+const globalData = {};
+const characters = ['Amaterasu', 'Arthur', 'CapAmerica', 'Chris', 'Chunli', 'cmn', 'CViper', 'Dante', 'DeadPool', 'Dormammu', 'DrDoom', 'DrStrange', 'Felicia', 'FeliciaC', 'FeliciaF', 'Frank', 'Galactus', 'GhostRider', 'Gouki', 'Haggar', 'HawkEye', 'Hiryu', 'Hulk', 'IronFist', 'IronMan', 'Jill', 'Kobun', 'Leilei', 'Linlin', 'Magneto', 'Mayoi', 'Modok', 'Morrigan', 'Naruhodo', 'Nemesis', 'Nova', 'Phoenix', 'RedArremer', 'RedArremerSh', 'RRaccoon', 'Ryu', 'Sentinel', 'SheHulk', 'Shuma', 'Spencer', 'SpiderMan', 'Storm', 'SuperSkrull', 'TaskMaster', 'Thor', 'Trish', 'Tron', 'Vergil', 'VJoe', 'Wesker', 'Wolverine', 'X23', 'Zero', 'Zombie'];
+export {characters, globalData};

@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
 
 import intro from './components/intro';
 import {AnmCmdSidebar, AnmCmdDisplay} from './components/AnmCmd';
+const data = {};
 const Routes = (props) => (
   <Router>
     <div id="layout">
@@ -17,14 +18,13 @@ const Routes = (props) => (
               <Link to="/" className="pure-menu-link">Intro</Link>
             </li>
           </ul>
-          <Route path="/:character/anmcmd" component={AnmCmdSidebar}>
-
+          <Route test="testData" data={data} path="/:character/anmcmd" component={AnmCmdSidebar}>
           </Route>
         </div>
       </div>
       <div id="main">
-        <Route exact path="/(:filter)" component={intro}/>
-        <Route path="/:character/anmcmd/:id" component={AnmCmdDisplay}/>
+        <Route exact path="/" component={intro}/>
+        <Route test="testData" data={data} path="/:character/anmcmd/:id" component={AnmCmdDisplay}/>
       </div>
     </div>
 
