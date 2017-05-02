@@ -11,6 +11,7 @@ const Routes = (props) => (
         <ul className="sidebar-nav">
           <li className="sidebar-brand"><Link to="/">boxdox.marvel</Link></li>
         </ul>
+        <div className="credits">a modding resource by <a href="https://twitter.com/dantarion">@dantarion</a></div>
         <Route test="testData" data={data} path="/:character/anmcmd" component={AnmCmdSidebar}></Route>
       </div>
       <div id="page-content-wrapper">

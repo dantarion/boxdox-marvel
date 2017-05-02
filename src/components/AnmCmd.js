@@ -3,6 +3,51 @@ import { NavLink } from 'react-router-dom'
 import {characters,commandDB} from '../data';
 import axios from 'axios';
 import printf from 'printf';
+
+function getClassNamesForEntry(entry){
+  var classes = {};
+  Object.keys(entry).forEach((frame)=>{
+
+    var commands = entry[frame];
+    commands.forEach((command) => {
+      ;
+      if(command.group === 1 && command.id === 0x99){
+        //classes["attack"] = true;
+      }
+    })
+  })
+  return Object.keys(classes).join(" ");
+}
+function getIconsForEntry(entry){
+  var icons = {};
+  Object.keys(entry).forEach((frame)=>{
+
+    var commands = entry[frame];
+    commands.forEach((command) => {
+
+      if(command.group === 0 && command.id === 0x1C){
+        icons["refresh"] = "loops";
+      }
+      if(command.group === 1 && command.id === 0x99){
+        icons["rocket"] = "hasHitbox";
+      }
+      if(command.group === 1 && command.id === 0xA1 && command.params[1] === 0){
+        icons["arrow-right"] = "returnToStand";
+      }
+      if(command.group === 1 && command.id === 0xA1 && command.params[1] === 1){
+        icons["arrow-down"] = "returnToCrouch";
+      }
+      if(command.group === 1 && command.id === 0xA1 && command.params[1] === 2){
+        icons["arrow-up"] = "returnToAir";
+      }
+      if(command.group === 3 && command.id === 0x30){
+        icons["circle-thin"] = "projectile";
+      }
+    })
+  })
+  return Object.keys(icons);
+}
+
 class AnmCmdSidebar extends Component {
   constructor(props) {
     super(props);
@@ -13,14 +58,18 @@ class AnmCmdSidebar extends Component {
     this.selectChange = this.selectChange.bind(this);
   }
   componentDidMount() {
-    axios.get(`/json/anmcmd/${this.props.match.params.character}.json`)
+    this.loadCharacter(this.props.match.params.character);
+  }
+  loadCharacter(character){
+    axios.get(`/json/anmcmd/${character}.json`)
       .then(res => {
         const posts = res.data;
         this.setState({ posts });
       });
   }
   selectChange(event){
-    this.props.history.push("/"+event.target.value+"/anmcmd");
+    this.props.history.push(`/${event.target.value}/anmcmd`);
+    this.loadCharacter(event.target.value);
   }
   render() {
     return (
@@ -32,8 +81,13 @@ class AnmCmdSidebar extends Component {
     })}
     </select>
     <ul>
-      {Object.keys(this.state.posts).map(ID =>
-        <li key={ID}><NavLink activeClassName="active" to={printf("/%s/anmcmd/%02X",this.props.match.params.character,ID)}>Entry #{printf("%03X",parseInt(ID,10))}</NavLink></li>
+      {Object.keys(this.state.posts).map((ID) =>
+        <li key={ID}><NavLink className={getClassNamesForEntry(this.state.posts[ID])} activeClassName="active" to={printf("/%s/anmcmd/%02X",this.props.match.params.character,ID)}>
+        Entry #{printf("%03X",parseInt(ID,10))}
+        {getIconsForEntry(this.state.posts[ID]).map((icon,index)=>{
+          return (<span key={index} className={"fa fa-"+icon}> </span>)
+        })}
+      </NavLink></li>
       )}
     </ul>
     </div>

@@ -6,6 +6,7 @@ $color4: rgba(43, 65, 98, 1);
 $color5: rgba(56, 95, 113, 1);
 $bootstrap-sass-asset-helper: true;
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import "~font-awesome/css/font-awesome.css";
 
 body {
   background: url('/img/footer_lodyas.png');
@@ -101,7 +102,10 @@ body {
   color: #fff;
   background: $color2;
 }
-
+.credits {
+  text-align:center;
+  color:$color3;
+}
 .AnmCmdSidebar {
   position: relative;
 
@@ -125,11 +129,17 @@ body {
       padding: 2px !important;
       font-size: 90%;
     }
-
+    .fa {
+      margin-left:4px;
+    }
+    .attack{
+      color:rgb(242, 32, 4);
+    }
     li a.active,
     li a:focus,
     li a:hover {
       background: $color3;
+      color:white;
     }
   }
 }
@@ -148,7 +158,6 @@ body {
     margin: 0;
     padding: 0;
   }
-
   .command {
     font-family: 'Consolas','Monaco',fixed-width;
     font-size: 80%;

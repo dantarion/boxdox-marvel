@@ -1,0 +1,19 @@
+{
+  plugins : ["s3"],
+  baseDir : "./build",
+  remote  : "s3-us-west-2.amazonaws.com/boxdox-marvel.dantarion.com",
+  each: [{
+    headers   : { "cache-control": { cacheable: "public" } }
+  }, {
+    match     : "**/*.{html,css,js}",
+    gzip      : true,
+    headers   : { "cache-control": { maxAge: "48 hours" } }
+  }, {
+    match     : "**/*.{jpg,png,gif,ico}",
+    gzip      : false,
+    headers   : { "cache-control": { maxAge: "1 year" } }
+  }, {
+    match     : "**/*.html",
+    priority  : -1
+  }]
+}

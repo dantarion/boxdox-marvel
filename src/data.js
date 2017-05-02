@@ -1,5 +1,11 @@
 const globalData = {};
 const commandDB = {
+  "00_07": {
+    "name": "jmp",
+  },
+  "00_08": {
+    "name": "jmpIf",
+  },
   "00_1C": {
     "name": "loop?",
   },
