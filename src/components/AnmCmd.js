@@ -72,6 +72,7 @@ class AnmCmdDisplay extends Component {
                     if(commandDB[commandName] && commandDB[commandName].name){
                         commandName = commandDB[commandName].name;
                     } else{
+                      commandName = "_"+commandName;
                       className += " auto"
                     }
                     return (<div key={index} className={className}>{printf("%s(%s)",commandName,paramsText)}</div>);

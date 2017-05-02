@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "axios": "^0.16.1",
+    "bootstrap-sass": "^3.3.7",
+    "jquery": "^3.2.1",
     "printf": "^0.2.5",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
