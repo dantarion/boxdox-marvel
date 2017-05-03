@@ -3,9 +3,13 @@ import { Link } from 'react-router-dom'
 import {characters} from '../data';
 
 var characterButtons = characters.map((character,index)=>{
-  var route = "/"+character+"/anmcmd";
-  return <Link key={index} to={route}>{character}</Link>
-})
+  var route = `/${character}/anmcmd`;
+  if(["cmn","FeliciaC","FeliciaC","FeliciaF","Galactus","Kobun","Linlin","Mayoi","Zombie","RedArremerSh"].indexOf(character) !== -1){
+    return <Link className="no-image" key={index} to={route}>{character}</Link>
+  } else {
+    return <Link key={index} to={route}><img alt={character} src={`/img/rip/fb_${character}00_BM_HQ_NOMIP.dds.png`}/></Link>
+  }
+  })
 class Intro extends Component {
 
   render() {

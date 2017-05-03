@@ -6,8 +6,6 @@ $color4: rgba(43, 65, 98, 1);
 $color5: rgba(56, 95, 113, 1);
 $bootstrap-sass-asset-helper: true;
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
-@import "~font-awesome/css/font-awesome.css";
-
 body {
   background: url('/img/footer_lodyas.png');
   color: #ccc;
@@ -165,12 +163,17 @@ body {
   color: $color1;
   background: rgba(150,150,150,.5);
 }
-
 .characterList a {
+  margin-right: 0em;
+  margin-bottom: 0em;
+  display: inline-block;
+  float: left;
+  line-height: 60px;
+}
+.characterList a.no-image {
+  margin-top:20px;
   background: darken($color2,20);
   padding: 0.5em;
-  margin-right: 1em;
-  margin-bottom: 0.5em;
   display: block;
   float: left;
 }

@@ -5,11 +5,11 @@
   each: [{
     headers   : { "cache-control": { cacheable: "public" } }
   }, {
-    match     : "**/*.{html,css,js}",
+    match     : "**/*.{html,css,js,json}",
     gzip      : true,
-    headers   : { "cache-control": { maxAge: "48 hours" } }
+    headers   : { "cache-control": { maxAge: "1 hours" } }
   }, {
-    match     : "**/*.{jpg,png,gif,ico}",
+    match     : "**/*.{jpg,png,gif,ico,eot,svg,woff,woff2,ttf}",
     gzip      : false,
     headers   : { "cache-control": { maxAge: "1 year" } }
   }, {
