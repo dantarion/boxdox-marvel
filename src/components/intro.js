@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
-import {characters} from '../data';
+import {orderedCharacters} from '../data';
 
-var characterButtons = characters.map((character,index)=>{
+var characterButtons = orderedCharacters.map((character,index)=>{
   var route = `/${character}/anmcmd`;
-  if(["cmn","FeliciaC","FeliciaC","FeliciaF","Galactus","Kobun","Linlin","Mayoi","Zombie","RedArremerSh"].indexOf(character) !== -1){
-    return <Link className="no-image" key={index} to={route}>{character}</Link>
+  if(character === ""){
+    return <Link  key={index} to="#"></Link>
+  }
+  if(["","cmn","FeliciaC","FeliciaC","FeliciaF","Galactus","Kobun","Linlin","Mayoi","Zombie","RedArremerSh"].indexOf(character) !== -1){
+    return <Link className="no-image" key={index} to={route}><span>{character}</span></Link>
   } else {
-    return <Link key={index} to={route}><img alt={character} src={`/img/rip/fb_${character}00_BM_HQ_NOMIP.dds.png`}/></Link>
+    return <Link key={index} to={route} style={{zIndex:100-index,backgroundImage: "url('/img/rip/fb_"+character+"00_BM_HQ_NOMIP.dds.png')"}}></Link>
   }
   })
 class Intro extends Component {

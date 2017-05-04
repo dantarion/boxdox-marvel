@@ -16,7 +16,7 @@ a {
 }
 
 body {
-  overflow-x: hidden;
+
 }
 /* Toggle Styles */
 #wrapper {
@@ -121,11 +121,12 @@ body {
     margin: 0;
     padding: 0;
     overflow-y: auto;
-
+    background: #000 url(/img/rip/b_Sentinel00_BM_HQ_NOMIP.dds.png) no-repeat 50% calc(100% + 100px);
     li a {
       display: block;
       padding: 2px !important;
       font-size: 90%;
+      background: rgba(0,0,0,.5)
     }
     .fa {
       margin-left:4px;
@@ -164,26 +165,61 @@ body {
   background: rgba(150,150,150,.5);
 }
 .characterList a {
-  margin-right: 0em;
-  margin-bottom: 0em;
+  margin-right: -50px;
+  margin-bottom: 1px;
   display: inline-block;
   float: left;
   line-height: 60px;
+  position:relative;
+  clip-path: polygon(0% 100%, 53% 100%, 100% 0%,0% 0%);
+  background-position:-6px -22px;
+  width:116px;
+  height:84px;
 }
-.characterList a.no-image {
-  margin-top:20px;
-  background: darken($color2,20);
-  padding: 0.5em;
-  display: block;
-  float: left;
+.characterList a:nth-child(8n+1) {
+clear:left;
 }
 
+.characterList a.no-image {
+  clip-path: polygon(0% 100%, 53% 100%, 100% 0%,47% 0%);
+  background: darken($color2,20);
+  display: block;
+  float: left;
+  span {
+    display:block;
+    line-height: 600%;
+    text-align: center;
+    -ms-transform: rotate(-60deg); /* IE 9 */
+    -webkit-transform: rotate(-60deg); /* Chrome, Safari, Opera */
+    transform: rotate(-60deg);
+  }
+}
+
+
 .module00 {
-  background: #000;
+  background: rgba(0,0,0,.5);
   color: white;
 }
 
 .module01 {
-  background: #ffd9ad;
+  background: rgba(170, 243, 245, 0.5);
   color: black;
+}
+.module03 {
+  background: rgba(175, 246, 180, 0.5);
+  color: black;
+}
+.react-grid-Canvas, .react-grid-Main{
+  background:$color1
+}
+.react-grid-HeaderCell{
+  background:$color2;
+}
+.react-grid-Cell{
+  background:$color1;
+}
+.table-condensed {
+  td,th{
+    padding:0px !important;
+  }
 }

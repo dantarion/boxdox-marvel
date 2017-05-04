@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom'
-import {characters,commandDB} from '../data';
+import {commandDB} from '../data';
 import axios from 'axios';
 import printf from 'printf';
 
@@ -55,7 +55,7 @@ class AnmCmdSidebar extends Component {
     this.state = {
       posts: []
     };
-    this.selectChange = this.selectChange.bind(this);
+
   }
   componentDidMount() {
     this.loadCharacter(this.props.match.params.character);
@@ -67,20 +67,12 @@ class AnmCmdSidebar extends Component {
         this.setState({ posts });
       });
   }
-  selectChange(event){
-    this.props.history.push(`/${event.target.value}/anmcmd`);
-    this.loadCharacter(event.target.value);
-  }
   render() {
     return (
     <div className="AnmCmdSidebar">
-    <h4>AnmCmd</h4>
-    <select value={this.props.match.params.character} onChange={this.selectChange}>
-    {characters.map((character,index)=>{
-      return (<option key={index}>{character}</option>);
-    })}
-    </select>
-    <ul>
+    <h4>{this.props.match.params.character}</h4>
+
+    <ul style={{backgroundImage:`url(/img/rip/b_${this.props.match.params.character}00_BM_HQ_NOMIP.dds.png)`}}>
       {Object.keys(this.state.posts).map((ID) =>
         <li key={ID}><NavLink className={getClassNamesForEntry(this.state.posts[ID])} activeClassName="active" to={printf("/%s/anmcmd/%02X",this.props.match.params.character,ID)}>
         Entry #{printf("%03X",parseInt(ID,10))}
@@ -102,12 +94,10 @@ class AnmCmdDisplay extends Component {
     };
   }
   componentWillMount() {
-    console.log("AY");
     axios.get(`/json/anmcmd/${this.props.match.params.character}.json`)
       .then(res => {
         const data = res.data;
         this.setState({ data });
-        console.log(data);
       });
   }
   render() {
@@ -116,12 +106,20 @@ class AnmCmdDisplay extends Component {
       return (<div>Loading...</div>)
     }
     return (<div className="AnmCmdDisplay">
-              {Object.keys(this.state.data[ID]).sort((a, b)=> parseInt(a,10) > parseInt(b,10)).map((Frame,index) =>
+              {Object.keys(this.state.data[ID]).sort((a, b)=> parseInt(a,10) - parseInt(b,10)).map((Frame,index) =>
+
                 (<div key={index} >
                   <h4>Frame {Frame}</h4>
-                  {this.state.data[ID][Frame].map((cmd,index)=>{
+                  {
+                    this.state.data[ID][Frame].map((cmd,index)=>{
                     var commandName = printf("%02X_%02X",cmd.group,cmd.id);
-                    var paramsText = cmd.params.map((a)=>printf("0x%X",a)).join(", ");
+                    var paramsText = cmd.params.map((a)=>{
+                      if(typeof a !== "string"){
+                        return printf("0x%X",a);
+                      } else{
+                        return printf("'%s'",a);
+                      }
+                    }).join(", ");
                     var className = printf("command module%02X",cmd.group);
                     if(commandDB[commandName] && commandDB[commandName].name){
                         commandName = commandDB[commandName].name;
