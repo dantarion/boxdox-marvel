@@ -8,12 +8,18 @@
     "font-awesome": "^4.7.0",
     "jquery": "^3.2.1",
     "printf": "^0.2.5",
+    "prismjs": "^1.6.0",
     "react": "^15.5.4",
     "react-data-grid": "^2.0.33",
     "react-dom": "^15.5.4",
     "react-router-dom": "^4.1.1"
   },
   "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
     "react-scripts-sass": "0.8.6"
   },
   "scripts": {

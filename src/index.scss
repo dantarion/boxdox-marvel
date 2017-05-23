@@ -143,7 +143,7 @@ body {
   }
 }
 
-.AnmCmdDisplay > div {
+.AnmCmdDisplay > div.old {
   padding: 1em 0 1em 120px;
   position: relative;
   margin-right: 10px;
@@ -163,6 +163,13 @@ body {
   }
   color: $color1;
   background: rgba(150,150,150,.5);
+}
+pre{
+  background:rgba(000,000,000,.6)
+}
+pre[class*="language-"],
+code[class*="language-"]  {
+  //background:rgba(000,000,000,.6)
 }
 .characterList a {
   margin-right: -50px;

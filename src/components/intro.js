@@ -1,23 +1,21 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import {orderedCharacters} from '../data';
+import {orderedCharacters} from '../data'
 
-var characterButtons = orderedCharacters.map((character,index)=>{
-  var route = `/${character}/anmcmd`;
-  if(character === ""){
-    return <Link  key={index} to="#"></Link>
+var characterButtons = orderedCharacters.map((character, index) => {
+  var route = `/${character}/anmcmd`
+  if (character === '') {
+    return <Link key={index} to="#"></Link>
   }
-  if(["","cmn","FeliciaC","FeliciaC","FeliciaF","Galactus","Kobun","Linlin","Mayoi","Zombie","RedArremerSh"].indexOf(character) !== -1){
+  if (['', 'cmn', 'FeliciaC', 'FeliciaC', 'FeliciaF', 'Galactus', 'Kobun', 'Linlin', 'Mayoi', 'Zombie', 'RedArremerSh'].indexOf(character) !== -1) {
     return <Link className="no-image" key={index} to={route}><span>{character}</span></Link>
   } else {
-    return <Link key={index} to={route} style={{zIndex:100-index,backgroundImage: "url('/img/rip/fb_"+character+"00_BM_HQ_NOMIP.dds.png')"}}></Link>
+    return <Link key={index} to={route} style={{zIndex: 100 - index, backgroundImage: "url('/img/rip/fb_" + character + "00_BM_HQ_NOMIP.dds.png')"}}></Link>
   }
-  })
+})
 class Intro extends Component {
-
-  render() {
+  render () {
     return (
-
 
   <div className="content">
     <h2 className="content-subhead">What is this site?</h2>
@@ -37,5 +35,6 @@ class Intro extends Component {
 {characterButtons}
     </div>
   </div>)
-}};
-export default Intro;
+  }
+};
+export default Intro
