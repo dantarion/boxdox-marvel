@@ -1,0 +1,66 @@
+{
+  "0x0": {
+    "id": 0,
+    "count": 1,
+    "_offset": "0x40",
+    "_end": "0x68",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 4,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "radius": 50,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x1": {
+    "id": 1,
+    "count": 0,
+    "_offset": "0x68",
+    "_end": "0x70",
+    "blocks": []
+  },
+  "0x2": {
+    "id": 2,
+    "count": 0,
+    "_offset": "0x70",
+    "_end": "0x78",
+    "blocks": []
+  },
+  "0x3": {
+    "id": 3,
+    "count": 0,
+    "_offset": "0x78",
+    "_end": "0x80",
+    "blocks": []
+  },
+  "0x4": {
+    "id": 4,
+    "count": 0,
+    "_offset": "0x80",
+    "_end": "0x88",
+    "blocks": []
+  },
+  "0x5": {
+    "id": 5,
+    "count": 1,
+    "_offset": "0x88",
+    "_end": "0xb0",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 3,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "radius": 150,
+        "unknown8": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,1580 @@
+{
+  "0x0": {
+    "id": 0,
+    "count": 2,
+    "_offset": "0x208",
+    "_end": "0x250",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 10,
+        "x": 5,
+        "y": 0,
+        "z": 0,
+        "radius": 25,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 11,
+        "x": 5,
+        "y": 0,
+        "z": 0,
+        "radius": 30,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x1": {
+    "id": 1,
+    "count": 2,
+    "_offset": "0x250",
+    "_end": "0x298",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 14,
+        "x": 5,
+        "y": 0,
+        "z": 0,
+        "radius": 25,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 15,
+        "x": 5,
+        "y": 0,
+        "z": 0,
+        "radius": 30,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x2": {
+    "id": 2,
+    "count": 2,
+    "_offset": "0x298",
+    "_end": "0x2e0",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 17,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "radius": 40,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 18,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "radius": 40,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x3": {
+    "id": 3,
+    "count": 2,
+    "_offset": "0x2e0",
+    "_end": "0x328",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 21,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "radius": 40,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 22,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "radius": 40,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x4": {
+    "id": 4,
+    "count": 2,
+    "_offset": "0x328",
+    "_end": "0x370",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 5,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "radius": 40,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 7,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "radius": 50,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x5": {
+    "id": 5,
+    "count": 1,
+    "_offset": "0x370",
+    "_end": "0x398",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 3,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "radius": 750,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x6": {
+    "id": 6,
+    "count": 1,
+    "_offset": "0x398",
+    "_end": "0x3c0",
+    "blocks": [
+      {
+        "unknown1": 0,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": -10,
+        "z": 0,
+        "radius": 50,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x7": {
+    "id": 7,
+    "count": 0,
+    "_offset": "0x3c0",
+    "_end": "0x3c8",
+    "blocks": []
+  },
+  "0x8": {
+    "id": 8,
+    "count": 0,
+    "_offset": "0x3c8",
+    "_end": "0x3d0",
+    "blocks": []
+  },
+  "0x9": {
+    "id": 9,
+    "count": 1,
+    "_offset": "0x3d0",
+    "_end": "0x3f8",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 150,
+        "z": 28,
+        "radius": 40,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0xa": {
+    "id": 10,
+    "count": 3,
+    "_offset": "0x3f8",
+    "_end": "0x460",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 0,
+        "z": 19,
+        "radius": 40,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 50,
+        "z": 19,
+        "radius": 40,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 100,
+        "z": 19,
+        "radius": 40,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0xb": {
+    "id": 11,
+    "count": 2,
+    "_offset": "0x460",
+    "_end": "0x4a8",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 25,
+        "z": 60,
+        "radius": 50,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 80,
+        "z": 60,
+        "radius": 50,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0xc": {
+    "id": 12,
+    "count": 5,
+    "_offset": "0x4a8",
+    "_end": "0x550",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 3,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "radius": 40,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 17,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "radius": 30,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 18,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "radius": 25,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 21,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "radius": 30,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 22,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "radius": 25,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0xd": {
+    "id": 13,
+    "count": 2,
+    "_offset": "0x550",
+    "_end": "0x598",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 115,
+        "z": 170,
+        "radius": 40,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 120,
+        "z": 125,
+        "radius": 40,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0xe": {
+    "id": 14,
+    "count": 2,
+    "_offset": "0x598",
+    "_end": "0x5e0",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 125,
+        "z": 170,
+        "radius": 40,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 135,
+        "z": 125,
+        "radius": 40,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0xf": {
+    "id": 15,
+    "count": 2,
+    "_offset": "0x5e0",
+    "_end": "0x628",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 145,
+        "z": 210,
+        "radius": 55,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 145,
+        "z": 145,
+        "radius": 55,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x10": {
+    "id": 16,
+    "count": 2,
+    "_offset": "0x628",
+    "_end": "0x670",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 35,
+        "z": 170,
+        "radius": 40,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 55,
+        "z": 130,
+        "radius": 40,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x11": {
+    "id": 17,
+    "count": 2,
+    "_offset": "0x670",
+    "_end": "0x6b8",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 35,
+        "z": 165,
+        "radius": 40,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 55,
+        "z": 125,
+        "radius": 40,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x12": {
+    "id": 18,
+    "count": 2,
+    "_offset": "0x6b8",
+    "_end": "0x700",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 55,
+        "z": 210,
+        "radius": 55,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 55,
+        "z": 145,
+        "radius": 55,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x13": {
+    "id": 19,
+    "count": 1,
+    "_offset": "0x700",
+    "_end": "0x728",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 185,
+        "z": 75,
+        "radius": 50,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x14": {
+    "id": 20,
+    "count": 1,
+    "_offset": "0x728",
+    "_end": "0x750",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 120,
+        "z": 100,
+        "radius": 50,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x15": {
+    "id": 21,
+    "count": 1,
+    "_offset": "0x750",
+    "_end": "0x778",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 100,
+        "z": 55,
+        "radius": 50,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x16": {
+    "id": 22,
+    "count": 2,
+    "_offset": "0x778",
+    "_end": "0x7c0",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 10,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "radius": 40,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 11,
+        "x": 0,
+        "y": 0,
+        "z": 60,
+        "radius": 45,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x17": {
+    "id": 23,
+    "count": 2,
+    "_offset": "0x7c0",
+    "_end": "0x808",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 10,
+        "x": 5,
+        "y": 0,
+        "z": 0,
+        "radius": 25,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 11,
+        "x": 5,
+        "y": 0,
+        "z": 0,
+        "radius": 1000,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x18": {
+    "id": 24,
+    "count": 2,
+    "_offset": "0x808",
+    "_end": "0x850",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 145,
+        "z": 210,
+        "radius": 55,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 145,
+        "z": 145,
+        "radius": 55,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x19": {
+    "id": 25,
+    "count": 2,
+    "_offset": "0x850",
+    "_end": "0x898",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 55,
+        "z": 210,
+        "radius": 55,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 55,
+        "z": 145,
+        "radius": 55,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x1a": {
+    "id": 26,
+    "count": 0,
+    "_offset": "0x898",
+    "_end": "0x8a0",
+    "blocks": []
+  },
+  "0x1b": {
+    "id": 27,
+    "count": 0,
+    "_offset": "0x8a0",
+    "_end": "0x8a8",
+    "blocks": []
+  },
+  "0x1c": {
+    "id": 28,
+    "count": 0,
+    "_offset": "0x8a8",
+    "_end": "0x8b0",
+    "blocks": []
+  },
+  "0x1d": {
+    "id": 29,
+    "count": 0,
+    "_offset": "0x8b0",
+    "_end": "0x8b8",
+    "blocks": []
+  },
+  "0x1e": {
+    "id": 30,
+    "count": 1,
+    "_offset": "0x8b8",
+    "_end": "0x8e0",
+    "blocks": [
+      {
+        "unknown1": 0,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": -10,
+        "z": 0,
+        "radius": 35,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x1f": {
+    "id": 31,
+    "count": 1,
+    "_offset": "0x8e0",
+    "_end": "0x908",
+    "blocks": [
+      {
+        "unknown1": 0,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": -10,
+        "z": 0,
+        "radius": 45,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x20": {
+    "id": 32,
+    "count": 1,
+    "_offset": "0x908",
+    "_end": "0x930",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 130,
+        "z": 0,
+        "radius": 70,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x21": {
+    "id": 33,
+    "count": 1,
+    "_offset": "0x930",
+    "_end": "0x958",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 15,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "radius": 35,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x22": {
+    "id": 34,
+    "count": 1,
+    "_offset": "0x958",
+    "_end": "0x980",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 15,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "radius": 45,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x23": {
+    "id": 35,
+    "count": 1,
+    "_offset": "0x980",
+    "_end": "0x9a8",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 0,
+        "z": 50,
+        "radius": 45,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x24": {
+    "id": 36,
+    "count": 1,
+    "_offset": "0x9a8",
+    "_end": "0x9d0",
+    "blocks": [
+      {
+        "unknown1": 0,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": -10,
+        "z": 0,
+        "radius": 35,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x25": {
+    "id": 37,
+    "count": 1,
+    "_offset": "0x9d0",
+    "_end": "0x9f8",
+    "blocks": [
+      {
+        "unknown1": 0,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": -10,
+        "z": 0,
+        "radius": 45,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x26": {
+    "id": 38,
+    "count": 1,
+    "_offset": "0x9f8",
+    "_end": "0xa20",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 150,
+        "z": 0,
+        "radius": 65,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x27": {
+    "id": 39,
+    "count": 1,
+    "_offset": "0xa20",
+    "_end": "0xa48",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 70,
+        "z": 75,
+        "radius": 55,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x28": {
+    "id": 40,
+    "count": 1,
+    "_offset": "0xa48",
+    "_end": "0xa70",
+    "blocks": [
+      {
+        "unknown1": 0,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": -10,
+        "z": 0,
+        "radius": 55,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x29": {
+    "id": 41,
+    "count": 2,
+    "_offset": "0xa70",
+    "_end": "0xab8",
+    "blocks": [
+      {
+        "unknown1": 0,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "radius": 45,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 185,
+        "z": 63,
+        "radius": 55,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x2a": {
+    "id": 42,
+    "count": 6,
+    "_offset": "0xab8",
+    "_end": "0xb80",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 10,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "radius": 30,
+        "unknown8": 524299
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 11,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "radius": 30,
+        "unknown8": 524299
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 170,
+        "z": 100,
+        "radius": 45,
+        "unknown8": 524299
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 200,
+        "z": 180,
+        "radius": 55,
+        "unknown8": 524299
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 240,
+        "z": 220,
+        "radius": 25,
+        "unknown8": 524299
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 250,
+        "z": 265,
+        "radius": 35,
+        "unknown8": 524299
+      }
+    ]
+  },
+  "0x2b": {
+    "id": 43,
+    "count": 1,
+    "_offset": "0xb80",
+    "_end": "0xba8",
+    "blocks": [
+      {
+        "unknown1": 1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": -10,
+        "z": 0,
+        "radius": 45,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x2c": {
+    "id": 44,
+    "count": 1,
+    "_offset": "0xba8",
+    "_end": "0xbd0",
+    "blocks": [
+      {
+        "unknown1": 1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": -10,
+        "z": 0,
+        "radius": 55,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x2d": {
+    "id": 45,
+    "count": 1,
+    "_offset": "0xbd0",
+    "_end": "0xbf8",
+    "blocks": [
+      {
+        "unknown1": 1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": -10,
+        "z": 20,
+        "radius": 55,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x2e": {
+    "id": 46,
+    "count": 7,
+    "_offset": "0xbf8",
+    "_end": "0xce0",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 10,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "radius": 30,
+        "unknown8": 524299
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 11,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "radius": 30,
+        "unknown8": 524299
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 80,
+        "z": 100,
+        "radius": 35,
+        "unknown8": 524299
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 80,
+        "z": 130,
+        "radius": 45,
+        "unknown8": 524299
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 80,
+        "z": 190,
+        "radius": 50,
+        "unknown8": 524299
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 100,
+        "z": 250,
+        "radius": 25,
+        "unknown8": 524299
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 100,
+        "z": 280,
+        "radius": 35,
+        "unknown8": 524299
+      }
+    ]
+  },
+  "0x2f": {
+    "id": 47,
+    "count": 1,
+    "_offset": "0xce0",
+    "_end": "0xd08",
+    "blocks": [
+      {
+        "unknown1": 0,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": -10,
+        "z": 0,
+        "radius": 55,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x30": {
+    "id": 48,
+    "count": 1,
+    "_offset": "0xd08",
+    "_end": "0xd30",
+    "blocks": [
+      {
+        "unknown1": 0,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": -10,
+        "z": 0,
+        "radius": 55,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x31": {
+    "id": 49,
+    "count": 6,
+    "_offset": "0xd30",
+    "_end": "0xdf8",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 9,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "radius": 30,
+        "unknown8": 524299
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 10,
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "radius": 30,
+        "unknown8": 524299
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": 11,
+        "x": 35,
+        "y": 0,
+        "z": 7,
+        "radius": 45,
+        "unknown8": 524299
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 15,
+        "z": 165,
+        "radius": 55,
+        "unknown8": 524299
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": -20,
+        "z": 230,
+        "radius": 25,
+        "unknown8": 524299
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": -50,
+        "z": 260,
+        "radius": 35,
+        "unknown8": 524299
+      }
+    ]
+  },
+  "0x32": {
+    "id": 50,
+    "count": 3,
+    "_offset": "0xdf8",
+    "_end": "0xe60",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 30,
+        "z": 25,
+        "radius": 40,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 80,
+        "z": 25,
+        "radius": 40,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 130,
+        "z": 25,
+        "radius": 40,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x33": {
+    "id": 51,
+    "count": 1,
+    "_offset": "0xe60",
+    "_end": "0xe88",
+    "blocks": [
+      {
+        "unknown1": 0,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": -10,
+        "z": 0,
+        "radius": 55,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x34": {
+    "id": 52,
+    "count": 3,
+    "_offset": "0xe88",
+    "_end": "0xef0",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 30,
+        "z": 25,
+        "radius": 40,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 80,
+        "z": 25,
+        "radius": 40,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 130,
+        "z": 25,
+        "radius": 40,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x35": {
+    "id": 53,
+    "count": 1,
+    "_offset": "0xef0",
+    "_end": "0xf18",
+    "blocks": [
+      {
+        "unknown1": 0,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": -10,
+        "z": 0,
+        "radius": 55,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x36": {
+    "id": 54,
+    "count": 3,
+    "_offset": "0xf18",
+    "_end": "0xf80",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 30,
+        "z": 25,
+        "radius": 40,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 80,
+        "z": 25,
+        "radius": 40,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 130,
+        "z": 25,
+        "radius": 40,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x37": {
+    "id": 55,
+    "count": 1,
+    "_offset": "0xf80",
+    "_end": "0xfa8",
+    "blocks": [
+      {
+        "unknown1": 0,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": -10,
+        "z": 0,
+        "radius": 55,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x38": {
+    "id": 56,
+    "count": 3,
+    "_offset": "0xfa8",
+    "_end": "0x1010",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 30,
+        "z": 25,
+        "radius": 40,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 80,
+        "z": 25,
+        "radius": 40,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 130,
+        "z": 25,
+        "radius": 40,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x39": {
+    "id": 57,
+    "count": 1,
+    "_offset": "0x1010",
+    "_end": "0x1038",
+    "blocks": [
+      {
+        "unknown1": 0,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": -10,
+        "z": 0,
+        "radius": 55,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x3a": {
+    "id": 58,
+    "count": 3,
+    "_offset": "0x1038",
+    "_end": "0x10a0",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 30,
+        "z": 25,
+        "radius": 40,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 80,
+        "z": 25,
+        "radius": 40,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 130,
+        "z": 25,
+        "radius": 40,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x3b": {
+    "id": 59,
+    "count": 1,
+    "_offset": "0x10a0",
+    "_end": "0x10c8",
+    "blocks": [
+      {
+        "unknown1": 0,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": -10,
+        "z": 0,
+        "radius": 55,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x3c": {
+    "id": 60,
+    "count": 3,
+    "_offset": "0x10c8",
+    "_end": "0x1130",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 30,
+        "z": 25,
+        "radius": 40,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 80,
+        "z": 25,
+        "radius": 40,
+        "unknown8": 3
+      },
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 130,
+        "z": 25,
+        "radius": 40,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x3d": {
+    "id": 61,
+    "count": 1,
+    "_offset": "0x1130",
+    "_end": "0x1158",
+    "blocks": [
+      {
+        "unknown1": 0,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": -10,
+        "z": 0,
+        "radius": 55,
+        "unknown8": 3
+      }
+    ]
+  },
+  "0x3e": {
+    "id": 62,
+    "count": 1,
+    "_offset": "0x1158",
+    "_end": "0x1180",
+    "blocks": [
+      {
+        "unknown1": -1,
+        "unknown2": -1,
+        "unknown3": -1,
+        "x": 0,
+        "y": 0,
+        "z": 65,
+        "radius": 50,
+        "unknown8": 3
+      }
+    ]
+  }
+}

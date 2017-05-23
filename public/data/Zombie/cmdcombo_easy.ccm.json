@@ -1,0 +1,45 @@
+{
+  "0x0": {
+    "id": 0,
+    "blockCount": 2,
+    "unknown": 0,
+    "meterRequired": 0,
+    "enabled": false,
+    "atiString": "ati",
+    "unknown2": -1,
+    "unknown3": -1,
+    "delay": 2,
+    "actionIndex": 150,
+    "unknown4": -1,
+    "unknown5": -1,
+    "unknown6": -1,
+    "unknown7": -1,
+    "unknown8": -1,
+    "unknown9": -1,
+    "unknown10": 0,
+    "blocks": [
+      {
+        "id": 2,
+        "unknown": -1,
+        "unknown2": 1,
+        "unknown3": 0,
+        "unknown4": 1,
+        "unknown5": 16,
+        "unknown6": 16,
+        "unknown7": 0,
+        "_type": "STANDARD_INPUT"
+      },
+      {
+        "id": 9,
+        "unknown": 6,
+        "unknown2": 0,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "ACTION"
+      }
+    ]
+  }
+}

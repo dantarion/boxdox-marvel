@@ -1,0 +1,808 @@
+{
+  "0x0": {
+    "id": 0,
+    "blockCount": 5,
+    "unknown": 0,
+    "meterRequired": 0,
+    "disabled": 1,
+    "threshold": 1,
+    "positionRequired": 0,
+    "stateRequired": 4,
+    "flags": 1,
+    "enabled": true,
+    "_flags": "0x1",
+    "blocks": [
+      {
+        "id": 4,
+        "unknown": -1,
+        "unknown2": 1,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "TWO_BUTTON_INPUT"
+      },
+      {
+        "id": 11,
+        "unknown": 16384,
+        "unknown2": 0,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "STATE_RESTRICTION"
+      },
+      {
+        "id": 9,
+        "unknown": 1,
+        "unknown2": 3,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "ACTION"
+      },
+      {
+        "id": 73,
+        "unknown": 4096,
+        "unknown2": 0,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "unknown (related to advancing guard)"
+      },
+      {
+        "id": 56,
+        "unknown": 1,
+        "unknown2": 0,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "unknown (related to advancing guard, wall-cling, and TAC)"
+      }
+    ]
+  },
+  "0x1": {
+    "id": 1,
+    "blockCount": 6,
+    "unknown": 0,
+    "meterRequired": 0,
+    "disabled": 1,
+    "threshold": 1,
+    "positionRequired": 0,
+    "stateRequired": 4,
+    "flags": 1,
+    "enabled": true,
+    "_flags": "0x1",
+    "blocks": [
+      {
+        "id": 4,
+        "unknown": -1,
+        "unknown2": 1,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "TWO_BUTTON_INPUT"
+      },
+      {
+        "id": 11,
+        "unknown": 16384,
+        "unknown2": 0,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "STATE_RESTRICTION"
+      },
+      {
+        "id": 11,
+        "unknown": 2,
+        "unknown2": 0,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "STATE_RESTRICTION"
+      },
+      {
+        "id": 9,
+        "unknown": 1,
+        "unknown2": 4,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "ACTION"
+      },
+      {
+        "id": 73,
+        "unknown": 4096,
+        "unknown2": 0,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "unknown (related to advancing guard)"
+      },
+      {
+        "id": 56,
+        "unknown": 1,
+        "unknown2": 0,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "unknown (related to advancing guard, wall-cling, and TAC)"
+      }
+    ]
+  },
+  "0x2": {
+    "id": 2,
+    "blockCount": 6,
+    "unknown": 0,
+    "meterRequired": 0,
+    "disabled": 1,
+    "threshold": 1,
+    "positionRequired": 1,
+    "stateRequired": 4,
+    "flags": 1,
+    "enabled": true,
+    "_flags": "0x1",
+    "blocks": [
+      {
+        "id": 4,
+        "unknown": -1,
+        "unknown2": 1,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "TWO_BUTTON_INPUT"
+      },
+      {
+        "id": 11,
+        "unknown": 16384,
+        "unknown2": 0,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "STATE_RESTRICTION"
+      },
+      {
+        "id": 11,
+        "unknown": 32,
+        "unknown2": 0,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "STATE_RESTRICTION"
+      },
+      {
+        "id": 9,
+        "unknown": 1,
+        "unknown2": 5,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "ACTION"
+      },
+      {
+        "id": 73,
+        "unknown": 4096,
+        "unknown2": 0,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "unknown (related to advancing guard)"
+      },
+      {
+        "id": 56,
+        "unknown": 1,
+        "unknown2": 0,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "unknown (related to advancing guard, wall-cling, and TAC)"
+      }
+    ]
+  },
+  "0x3": {
+    "id": 3,
+    "blockCount": 7,
+    "unknown": 0,
+    "meterRequired": 0,
+    "disabled": 1,
+    "threshold": 1,
+    "positionRequired": 0,
+    "stateRequired": 0,
+    "flags": 0,
+    "enabled": true,
+    "_flags": "0x0",
+    "blocks": [
+      {
+        "id": 2,
+        "unknown": -1,
+        "unknown2": 1,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 11,
+        "unknown6": 8,
+        "unknown7": 0,
+        "_type": "STANDARD_INPUT"
+      },
+      {
+        "id": 2,
+        "unknown": 10,
+        "unknown2": 1,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 9,
+        "unknown6": 9,
+        "unknown7": 0,
+        "_type": "STANDARD_INPUT"
+      },
+      {
+        "id": 2,
+        "unknown": 10,
+        "unknown2": 1,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 13,
+        "unknown6": 1,
+        "unknown7": 0,
+        "_type": "STANDARD_INPUT"
+      },
+      {
+        "id": 2,
+        "unknown": 10,
+        "unknown2": 1,
+        "unknown3": 1,
+        "unknown4": 1,
+        "unknown5": 768,
+        "unknown6": 768,
+        "unknown7": 0,
+        "_type": "STANDARD_INPUT"
+      },
+      {
+        "id": 38,
+        "unknown": 0,
+        "unknown2": 0,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "allows snap back to bring in the assist specified by the button used"
+      },
+      {
+        "id": 9,
+        "unknown": 7,
+        "unknown2": 1,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "ACTION"
+      },
+      {
+        "id": 41,
+        "unknown": 100,
+        "unknown2": 0,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0
+      }
+    ]
+  },
+  "0x4": {
+    "id": 4,
+    "blockCount": 4,
+    "unknown": 0,
+    "meterRequired": 0,
+    "disabled": 0,
+    "threshold": 5,
+    "positionRequired": 0,
+    "stateRequired": 0,
+    "flags": 0,
+    "enabled": false,
+    "_flags": "0x0",
+    "blocks": [
+      {
+        "id": 2,
+        "unknown": -1,
+        "unknown2": 1,
+        "unknown3": 0,
+        "unknown4": 1,
+        "unknown5": 128,
+        "unknown6": 128,
+        "unknown7": 0,
+        "_type": "STANDARD_INPUT"
+      },
+      {
+        "id": 9,
+        "unknown": 13,
+        "unknown2": 20,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "ACTION"
+      },
+      {
+        "id": 61,
+        "unknown": 8,
+        "unknown2": 0,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "unknown (related to s.S and ground dashes)"
+      },
+      {
+        "id": 48,
+        "unknown": 13,
+        "unknown2": 20,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "unknown (related to s.S)"
+      }
+    ]
+  },
+  "0x5": {
+    "id": 5,
+    "blockCount": 3,
+    "unknown": 0,
+    "meterRequired": 0,
+    "disabled": 0,
+    "threshold": 0,
+    "positionRequired": 0,
+    "stateRequired": 0,
+    "flags": 0,
+    "enabled": false,
+    "_flags": "0x0",
+    "blocks": [
+      {
+        "id": 2,
+        "unknown": -1,
+        "unknown2": 1,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 13,
+        "unknown6": 1,
+        "unknown7": 0,
+        "_type": "STANDARD_INPUT"
+      },
+      {
+        "id": 2,
+        "unknown": 10,
+        "unknown2": 1,
+        "unknown3": 1,
+        "unknown4": 1,
+        "unknown5": 112,
+        "unknown6": 112,
+        "unknown7": 0,
+        "_type": "STANDARD_INPUT"
+      },
+      {
+        "id": 9,
+        "unknown": 8,
+        "unknown2": 0,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "ACTION"
+      }
+    ]
+  },
+  "0x6": {
+    "id": 6,
+    "blockCount": 3,
+    "unknown": 0,
+    "meterRequired": 0,
+    "disabled": 0,
+    "threshold": 0,
+    "positionRequired": 0,
+    "stateRequired": 0,
+    "flags": 0,
+    "enabled": false,
+    "_flags": "0x0",
+    "blocks": [
+      {
+        "id": 2,
+        "unknown": -1,
+        "unknown2": 1,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 7,
+        "unknown6": 4,
+        "unknown7": 0,
+        "_type": "STANDARD_INPUT"
+      },
+      {
+        "id": 2,
+        "unknown": 10,
+        "unknown2": 1,
+        "unknown3": 1,
+        "unknown4": 1,
+        "unknown5": 112,
+        "unknown6": 112,
+        "unknown7": 0,
+        "_type": "STANDARD_INPUT"
+      },
+      {
+        "id": 9,
+        "unknown": 8,
+        "unknown2": 1,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "ACTION"
+      }
+    ]
+  },
+  "0x7": {
+    "id": 7,
+    "blockCount": 3,
+    "unknown": 0,
+    "meterRequired": 0,
+    "disabled": 0,
+    "threshold": 0,
+    "positionRequired": 0,
+    "stateRequired": 0,
+    "flags": 0,
+    "enabled": false,
+    "_flags": "0x0",
+    "blocks": [
+      {
+        "id": 2,
+        "unknown": -1,
+        "unknown2": 1,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 14,
+        "unknown6": 2,
+        "unknown7": 0,
+        "_type": "STANDARD_INPUT"
+      },
+      {
+        "id": 2,
+        "unknown": 10,
+        "unknown2": 1,
+        "unknown3": 1,
+        "unknown4": 1,
+        "unknown5": 112,
+        "unknown6": 112,
+        "unknown7": 0,
+        "_type": "STANDARD_INPUT"
+      },
+      {
+        "id": 9,
+        "unknown": 8,
+        "unknown2": 2,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "ACTION"
+      }
+    ]
+  },
+  "0x8": {
+    "id": 8,
+    "blockCount": 5,
+    "unknown": 0,
+    "meterRequired": 0,
+    "disabled": 0,
+    "threshold": 1,
+    "positionRequired": 0,
+    "stateRequired": 0,
+    "flags": 0,
+    "enabled": false,
+    "_flags": "0x0",
+    "blocks": [
+      {
+        "id": 2,
+        "unknown": -1,
+        "unknown2": 1,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 11,
+        "unknown6": 8,
+        "unknown7": 0,
+        "_type": "STANDARD_INPUT"
+      },
+      {
+        "id": 2,
+        "unknown": 10,
+        "unknown2": 1,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 10,
+        "unknown6": 10,
+        "unknown7": 0,
+        "_type": "STANDARD_INPUT"
+      },
+      {
+        "id": 2,
+        "unknown": 10,
+        "unknown2": 1,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 14,
+        "unknown6": 2,
+        "unknown7": 0,
+        "_type": "STANDARD_INPUT"
+      },
+      {
+        "id": 2,
+        "unknown": 10,
+        "unknown2": 1,
+        "unknown3": 1,
+        "unknown4": 1,
+        "unknown5": 112,
+        "unknown6": 112,
+        "unknown7": 0,
+        "_type": "STANDARD_INPUT"
+      },
+      {
+        "id": 9,
+        "unknown": 8,
+        "unknown2": 3,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "ACTION"
+      }
+    ]
+  },
+  "0x9": {
+    "id": 9,
+    "blockCount": 5,
+    "unknown": 0,
+    "meterRequired": 0,
+    "disabled": 0,
+    "threshold": 1,
+    "positionRequired": 0,
+    "stateRequired": 0,
+    "flags": 0,
+    "enabled": false,
+    "_flags": "0x0",
+    "blocks": [
+      {
+        "id": 2,
+        "unknown": -1,
+        "unknown2": 1,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 11,
+        "unknown6": 8,
+        "unknown7": 0,
+        "_type": "STANDARD_INPUT"
+      },
+      {
+        "id": 2,
+        "unknown": 10,
+        "unknown2": 1,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 9,
+        "unknown6": 9,
+        "unknown7": 0,
+        "_type": "STANDARD_INPUT"
+      },
+      {
+        "id": 2,
+        "unknown": 10,
+        "unknown2": 1,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 13,
+        "unknown6": 1,
+        "unknown7": 0,
+        "_type": "STANDARD_INPUT"
+      },
+      {
+        "id": 2,
+        "unknown": 10,
+        "unknown2": 1,
+        "unknown3": 1,
+        "unknown4": 1,
+        "unknown5": 112,
+        "unknown6": 112,
+        "unknown7": 0,
+        "_type": "STANDARD_INPUT"
+      },
+      {
+        "id": 9,
+        "unknown": 8,
+        "unknown2": 4,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "ACTION"
+      }
+    ]
+  },
+  "0xa": {
+    "id": 10,
+    "blockCount": 5,
+    "unknown": 0,
+    "meterRequired": 0,
+    "disabled": 0,
+    "threshold": 1,
+    "positionRequired": 0,
+    "stateRequired": 0,
+    "flags": 0,
+    "enabled": false,
+    "_flags": "0x0",
+    "blocks": [
+      {
+        "id": 2,
+        "unknown": -1,
+        "unknown2": 1,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 11,
+        "unknown6": 8,
+        "unknown7": 0,
+        "_type": "STANDARD_INPUT"
+      },
+      {
+        "id": 2,
+        "unknown": 10,
+        "unknown2": 1,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 9,
+        "unknown6": 9,
+        "unknown7": 0,
+        "_type": "STANDARD_INPUT"
+      },
+      {
+        "id": 2,
+        "unknown": 10,
+        "unknown2": 1,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 13,
+        "unknown6": 1,
+        "unknown7": 0,
+        "_type": "STANDARD_INPUT"
+      },
+      {
+        "id": 4,
+        "unknown": 10,
+        "unknown2": 1,
+        "unknown3": 0,
+        "unknown4": 1,
+        "unknown5": 16,
+        "unknown6": 16,
+        "unknown7": 0,
+        "_type": "TWO_BUTTON_INPUT"
+      },
+      {
+        "id": 9,
+        "unknown": 9,
+        "unknown2": 0,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "ACTION"
+      }
+    ]
+  },
+  "0xb": {
+    "id": 11,
+    "blockCount": 5,
+    "unknown": 0,
+    "meterRequired": 0,
+    "disabled": 0,
+    "threshold": 1,
+    "positionRequired": 0,
+    "stateRequired": 0,
+    "flags": 0,
+    "enabled": false,
+    "_flags": "0x0",
+    "blocks": [
+      {
+        "id": 2,
+        "unknown": -1,
+        "unknown2": 1,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 11,
+        "unknown6": 8,
+        "unknown7": 0,
+        "_type": "STANDARD_INPUT"
+      },
+      {
+        "id": 2,
+        "unknown": 10,
+        "unknown2": 1,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 10,
+        "unknown6": 10,
+        "unknown7": 0,
+        "_type": "STANDARD_INPUT"
+      },
+      {
+        "id": 2,
+        "unknown": 10,
+        "unknown2": 1,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 14,
+        "unknown6": 2,
+        "unknown7": 0,
+        "_type": "STANDARD_INPUT"
+      },
+      {
+        "id": 4,
+        "unknown": 10,
+        "unknown2": 1,
+        "unknown3": 0,
+        "unknown4": 1,
+        "unknown5": 16,
+        "unknown6": 16,
+        "unknown7": 0,
+        "_type": "TWO_BUTTON_INPUT"
+      },
+      {
+        "id": 9,
+        "unknown": 9,
+        "unknown2": 1,
+        "unknown3": 0,
+        "unknown4": 0,
+        "unknown5": 0,
+        "unknown6": 0,
+        "unknown7": 0,
+        "_type": "ACTION"
+      }
+    ]
+  }
+}
