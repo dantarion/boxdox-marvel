@@ -1,4 +1,4 @@
-{"_id":"s3-us-west-2.amazonaws.com/boxdox-marvel.dantarion.com/asset-manifest.json","c":"247cfa0c3287c76425ee385a089f729aGZ","h":"84601298","r":"68227629"}
+{"_id":"s3-us-west-2.amazonaws.com/boxdox-marvel.dantarion.com/asset-manifest.json","c":"80b3779dced4b065f8f3f2bea15e32abGZ","h":"84601298","r":"68227629"}
 {"_id":"s3-us-west-2.amazonaws.com/boxdox-marvel.dantarion.com/data/Amaterasu/anmchr.anm.js","c":"b247ad8e91b4e5ea4da6ed4937aa6c3fGZ","h":"9cb72fd7","r":"68227629"}
 {"_id":"s3-us-west-2.amazonaws.com/boxdox-marvel.dantarion.com/data/Amaterasu/anmtdown.anm.js","c":"129f81d51f4e2b0f160bd5dea02bfaecGZ","h":"9cb72fd7","r":"68227629"}
 {"_id":"s3-us-west-2.amazonaws.com/boxdox-marvel.dantarion.com/data/Amaterasu/atkcollision.cli.json","c":"995b4e5fbb9d1a65c5f2aea4bb8d6e1cGZ","h":"84601298","r":"68227629"}
@@ -1705,7 +1705,7 @@
 {"_id":"s3-us-west-2.amazonaws.com/boxdox-marvel.dantarion.com/img/rip/fd_X2300_BM_HQ_NOMIP.dds.png","c":"fec657a0c13efa8b25465049417e2025","h":"a81de61d","r":"68227629"}
 {"_id":"s3-us-west-2.amazonaws.com/boxdox-marvel.dantarion.com/img/rip/fd_Zero00_BM_HQ_NOMIP.dds.png","c":"610bcf5e641d199f61c3d0569c2fd80e","h":"a81de61d","r":"68227629"}
 {"_id":"s3-us-west-2.amazonaws.com/boxdox-marvel.dantarion.com/img/rip/ga_naru_icon00_BM_HQ_NOMIP.dds.png","c":"a9103750a24fa20c3d7f7581e668c375","h":"a81de61d","r":"68227629"}
-{"_id":"s3-us-west-2.amazonaws.com/boxdox-marvel.dantarion.com/index.html","c":"2f5faf5ad842cb8ba46e4ec83eb36c03GZ","h":"41439f8a","r":"68227629"}
+{"_id":"s3-us-west-2.amazonaws.com/boxdox-marvel.dantarion.com/index.html","c":"e5336937c68fa54abd4a0aa8043658edGZ","h":"41439f8a","r":"68227629"}
 {"_id":"s3-us-west-2.amazonaws.com/boxdox-marvel.dantarion.com/json/anmcmd/Amaterasu.json","c":"d5e595fdad8f5e5e5fe82889f4fbc172GZ","h":"84601298","r":"68227629"}
 {"_id":"s3-us-west-2.amazonaws.com/boxdox-marvel.dantarion.com/json/anmcmd/Arthur.json","c":"bf6583a395c592db9cf1812d2da2e827GZ","h":"84601298","r":"68227629"}
 {"_id":"s3-us-west-2.amazonaws.com/boxdox-marvel.dantarion.com/json/anmcmd/CViper.json","c":"87f0b575dc0db431f8d79805d15ef815GZ","h":"84601298","r":"68227629"}
@@ -1824,6 +1824,7 @@
 {"_id":"s3-us-west-2.amazonaws.com/boxdox-marvel.dantarion.com/static/css/main.79f64f2c.css","c":"98140d05b11bb08f24fca348ecff947dGZ","h":"5d4201e8","r":"68227629"}
 {"_id":"s3-us-west-2.amazonaws.com/boxdox-marvel.dantarion.com/static/css/main.cceb93ad.css","c":"a38c94f3edc932a5b2fa46da999ebf62GZ","h":"5d4201e8","r":"68227629"}
 {"_id":"s3-us-west-2.amazonaws.com/boxdox-marvel.dantarion.com/static/js/main.3f28d598.js","c":"87e7e7a9fff48c5ce0337fa23bcb68fcGZ","h":"9cb72fd7","r":"68227629"}
+{"_id":"s3-us-west-2.amazonaws.com/boxdox-marvel.dantarion.com/static/js/main.96a00903.js","c":"4189b204414b6c48c0912cea4bc5cbcdGZ","h":"9cb72fd7","r":"68227629"}
 {"_id":"s3-us-west-2.amazonaws.com/boxdox-marvel.dantarion.com/static/js/main.c46c0ff4.js","c":"a36642299710b6bdf8e62f9c3bcf0d5fGZ","h":"9cb72fd7","r":"68227629"}
 {"_id":"s3-us-west-2.amazonaws.com/boxdox-marvel.dantarion.com/static/js/main.d79ffa17.js","c":"a33b13ea21fc322f56caeb7cc2b690a7GZ","h":"9cb72fd7","r":"68227629"}
 {"_id":"s3-us-west-2.amazonaws.com/boxdox-marvel.dantarion.com/static/js/main.f84c27d3.js","c":"b555d29e9f0d8d30c31a352a5d051775GZ","h":"9cb72fd7","r":"68227629"}

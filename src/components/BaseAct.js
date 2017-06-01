@@ -16,12 +16,10 @@ class BaseActTable extends Component {
     })
   }
   render () {
-
-
     if (!this.state.data) {
       return <div>Loading</div>
     }
-    var header = Object.keys(this.state.data["0x0"]||{})
+    var header = Object.keys(this.state.data['0x0'] || {})
     return (
       <div>
         <table className="table table-condensed table-bordered" width="100%" style={{fontSize: '12px'}}>
@@ -36,7 +34,7 @@ class BaseActTable extends Component {
               return (
                 <tr key={ID}>
                   <td>{ID}</td>
-                  {header.map((index) => <td key={index}>{this.state.data[ID][index]||""}</td>)}
+                  {header.map((index) => <td key={index}>{this.state.data[ID][index] || ''}</td>)}
                 </tr>
               )
             })}

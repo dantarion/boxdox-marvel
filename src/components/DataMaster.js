@@ -3,7 +3,7 @@ class DataMaster extends Component {
   constructor (props) {
     super(props)
     this.loadedCharacter = this.props.match.params.character
-    console.log(this.loadedCharacter+' is loading...')
+    console.log(this.loadedCharacter + ' is loading...')
   }
   loadCharacterData (characterName) {
 

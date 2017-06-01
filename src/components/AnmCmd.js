@@ -3,7 +3,8 @@ import { NavLink } from 'react-router-dom'
 import axios from 'axios'
 import printf from 'printf'
 import 'prismjs/themes/prism-twilight.css'
-var Prism = require('prismjs');
+import { amnNames } from '../data'
+var Prism = require('prismjs')
 function getClassNamesForEntry (entry) {
   var classes = {}
   Object.keys(entry).forEach((frame) => {
@@ -71,7 +72,7 @@ class AnmCmdSidebar extends Component {
     <ul style={{backgroundImage: `url(/img/rip/b_${this.props.match.params.character}00_BM_HQ_NOMIP.dds.png)`}}>
       {Object.keys(this.state.posts).map((ID) =>
         <li key={ID}><NavLink className={getClassNamesForEntry(this.state.posts[ID])} activeClassName="active" to={printf('/%s/anmcmd/%02X', this.props.match.params.character, ID)}>
-        Entry #{printf('%03X', parseInt(ID, 10))}
+        {amnNames[ID] ? amnNames[ID] : printf('UNKNOWN #%03X', parseInt(ID, 10))}
         {getIconsForEntry(this.state.posts[ID]).map((icon, index) => {
           return (<span key={index} className={'fa fa-' + icon}> </span>)
         })}
@@ -87,7 +88,7 @@ class AnmCmdDisplay extends Component {
     super(props)
 
     this.state = {
-      js: {},
+      js: {}
     }
   }
   componentWillMount () {
@@ -96,7 +97,7 @@ class AnmCmdDisplay extends Component {
         const anmcmd = res.data
         this.setState({ anmcmd })
       })
-      axios.get(`/data/${this.props.match.params.character}/baseact.cba.json`)
+    axios.get(`/data/${this.props.match.params.character}/baseact.cba.json`)
         .then(res => {
           const cba = res.data
           this.setState({ cba })
@@ -105,7 +106,7 @@ class AnmCmdDisplay extends Component {
       .then(res => {
         const js = {}
         res.data.split('});\n').forEach((str) => {
-          js[parseInt(str.substring(15,18),16)] = str + '});\n'
+          js[parseInt(str.substring(15, 18), 16)] = str + '});\n'
         })
         this.setState({ js })
       })
@@ -117,13 +118,13 @@ class AnmCmdDisplay extends Component {
     }
 
     return (<div className="AnmCmdDisplay">
-      {Object.keys(this.state.cba||[])
+      {Object.keys(this.state.cba || [])
         .map((key) => this.state.cba[key])
         .filter((entry) => entry.actionIndex === ID)
         .map((entry) => <div className="cbaLink" key={entry.id}><h5>{entry.state} {entry.direction} {entry.button} <span className="small">baseact.cba#{entry.id}</span></h5></div>
       )}
       <pre>
-        <code className="language-javascript" dangerouslySetInnerHTML={{__html: Prism.highlight(this.state.js[ID]||'', Prism.languages.javascript)}}/>
+        <code className="language-javascript" dangerouslySetInnerHTML={{__html: Prism.highlight(this.state.js[ID] || '', Prism.languages.javascript)}}/>
       </pre>
             </div>)
   }
