@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import axios from 'axios'
 import printf from 'printf'
 import 'prismjs/themes/prism-twilight.css'
-import { amnNames } from '../data'
+import { amnNames, commandDB } from '../data'
 var Prism = require('prismjs')
 function getClassNamesForEntry (entry) {
   var classes = {}
