@@ -5,6 +5,8 @@ import printf from 'printf'
 import 'prismjs/themes/prism-twilight.css'
 import { amnNames, commandDB } from '../data'
 var Prism = require('prismjs')
+// CallExpression[callee.name="defineState"] find all states
+// CallExpression[callee.name="_01_99"] find all calls of specific function
 function getClassNamesForEntry (entry) {
   var classes = {}
   Object.keys(entry).forEach((frame) => {

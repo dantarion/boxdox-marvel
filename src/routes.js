@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
 import DataMaster from './components/DataMaster'
 import intro from './components/intro'
 import {AnmCmdSidebar, AnmCmdDisplay} from './components/AnmCmd'
+import NewSidebar from './components/AnmCmd/Sidebar'
 import {CharacterNavigation} from './components/CharacterNavigation'
 import {AtkInfoTable} from './components/AtkInfoTable'
 import {BaseActTable} from './components/BaseAct'
@@ -21,7 +22,7 @@ const Routes = (props) => (
             <a href="https://twitter.com/dantarion">@dantarion</a>
           </div>
           <Route data={data} path="/:character/:mode(anmcmd|atkinfo)" component={CharacterNavigation}></Route>
-          <Route data={data} path="/:character/anmcmd" component={AnmCmdSidebar}></Route>
+          <Route data={data} path="/:character/anmcmd" component={NewSidebar}></Route>
         </div>
         <div id="page-content-wrapper">
           <div className="container-fluid">
